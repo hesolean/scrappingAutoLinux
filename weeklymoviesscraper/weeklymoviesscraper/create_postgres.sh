@@ -5,6 +5,7 @@ ADMIN_PASSWORD="lndub12!3"
 ADMIN_USER="adminlnd"
 DATABASE_NAME="movies"
 
+# j'efface le fichier .env avant de lancer le script pour que les informations ne soient pas en double et à jour
 if [ -f ".env" ]; then
     rm ".env"
 fi
